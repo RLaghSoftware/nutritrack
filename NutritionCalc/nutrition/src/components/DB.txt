@@ -1,0 +1,16 @@
+  
+   Creating database code (Notes):
+   
+ CREATE DATABASE nutritionCalc;
+ use nutritionCalc;
+ 
+ CREATE TABLE tracker (
+	ID INT AUTO_INCREMENT PRIMARY KEY,
+    Calories INT Default 0,
+    Protein INT Default 0,
+    Fat INT Default 0,
+    Carbs INT Default 0,
+    created_at DATE DEFAULT (CURRENT_DATE)
+    
+ );
+ 
